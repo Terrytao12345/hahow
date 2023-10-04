@@ -10,3 +10,12 @@ score = input('請輸入分數 : \n ')
 exscore = 10
 
 print(user, score, '>', user.replace(user[1],"*"), '的分數是', int(score)+exscore, '分')
+
+
+#老師解答 
+
+name = input('whats your name : \n')
+score1 = input('whats your score : \n')
+hidename = name[0] + "*" + name[2:]
+score1 = float(score1) + 10
+print(hidename+'的分數是'+str(score1))
